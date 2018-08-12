@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogInActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/adview"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="70dp"
+        />
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="80dp"
+        android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+        android:hint="  Email Id"
+        android:ems="10"
+        android:maxLines="1"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@android:color/white"
+        android:id="@+id/edtLoginEmail"
+        />
+    <EditText
+        android:id="@+id/edtPasswordLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:hint=" Password"
+        android:ems="10"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        android:textColorHint="@android:color/white"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/background_style"
+        android:text="Log in"
+        android:id="@+id/btnLogin"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/txtGoSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="New user? Signup here"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15dp" />
+
+
+</LinearLayout>

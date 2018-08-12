@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1"
+        >
+    <item
+        android:id="@+id/menu_careTeamUploadedData"
+        android:title="Uploaded Data"
+        android:icon="@drawable/care_team_data_upload"
+        >
+    </item>
+        <item
+            android:id="@+id/menu_CareTeam_Account"
+            android:title="Account"
+            android:icon="@drawable/account"
+            >
+        </item>
+
+    </group>
+    <item
+        android:title="Log Out"
+        android:id="@+id/menu_careTeamLogOut"
+
+        ></item>
+
+</menu>

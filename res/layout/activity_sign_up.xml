@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    >
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/adview"
+        />
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="80dp"
+        android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+        android:hint="  Email Id"
+        android:ems="10"
+        android:maxLines="1"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@android:color/white"
+        android:id="@+id/edtSignupEmail"
+        />
+    <EditText
+        android:id="@+id/edtPasswordSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:hint=" Password"
+        android:ems="10"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        android:textColorHint="@android:color/white"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/background_style"
+        android:text="Sign up"
+        android:id="@+id/btnSignup"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/txtGoLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Already have an account? Signin here"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15dp" />
+
+</LinearLayout>
